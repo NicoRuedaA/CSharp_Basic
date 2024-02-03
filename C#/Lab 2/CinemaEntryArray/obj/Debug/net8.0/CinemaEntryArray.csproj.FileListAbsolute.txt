@@ -1,0 +1,14 @@
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\bin\Debug\net8.0\CinemaEntryArray.exe
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\bin\Debug\net8.0\CinemaEntryArray.deps.json
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\bin\Debug\net8.0\CinemaEntryArray.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\bin\Debug\net8.0\CinemaEntryArray.dll
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\bin\Debug\net8.0\CinemaEntryArray.pdb
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.dll
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\refint\CinemaEntryArray.dll
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.pdb
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\CinemaEntryArray.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\C sharp\Ejercicios\Lab 2\CinemaEntryArray\obj\Debug\net8.0\ref\CinemaEntryArray.dll
