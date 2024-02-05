@@ -1,0 +1,15 @@
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.sourcelink.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\bin\Debug\net8.0\TeamScores.exe
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\bin\Debug\net8.0\TeamScores.deps.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\bin\Debug\net8.0\TeamScores.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\bin\Debug\net8.0\TeamScores.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\bin\Debug\net8.0\TeamScores.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\refint\TeamScores.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\TeamScores.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 3\TeamScores\obj\Debug\net8.0\ref\TeamScores.dll
