@@ -108,6 +108,4 @@ class Team{
 
         showTeam(_players);
     }
-
-
 }

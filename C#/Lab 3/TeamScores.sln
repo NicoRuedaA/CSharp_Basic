@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamScores", "TeamScores\TeamScores.csproj", "{039D4662-DA35-4B63-A1B4-0457CC30BFE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperspace Cheese Battle game", "Hyperspace Cheese Battle game\Hyperspace Cheese Battle game.csproj", "{53F68B20-3C0A-4BDF-A606-9B977DFC46B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{039D4662-DA35-4B63-A1B4-0457CC30BFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{039D4662-DA35-4B63-A1B4-0457CC30BFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{039D4662-DA35-4B63-A1B4-0457CC30BFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F68B20-3C0A-4BDF-A606-9B977DFC46B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F68B20-3C0A-4BDF-A606-9B977DFC46B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F68B20-3C0A-4BDF-A606-9B977DFC46B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F68B20-3C0A-4BDF-A606-9B977DFC46B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
