@@ -13,3 +13,18 @@ C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab4\Hyperspace Cheese Battle g
 C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.pdb
 C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.genruntimeconfig.cache
 C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab4\Hyperspace Cheese Battle game\obj\Debug\net8.0\ref\Hyperspace Cheese Battle game.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\bin\Debug\net8.0\Hyperspace Cheese Battle game.exe
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\bin\Debug\net8.0\Hyperspace Cheese Battle game.deps.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\bin\Debug\net8.0\Hyperspace Cheese Battle game.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\bin\Debug\net8.0\Hyperspace Cheese Battle game.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\bin\Debug\net8.0\Hyperspace Cheese Battle game.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.sourcelink.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\refint\Hyperspace Cheese Battle game.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\Hyperspace Cheese Battle game.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 4\Hyperspace Cheese Battle game\obj\Debug\net8.0\ref\Hyperspace Cheese Battle game.dll
