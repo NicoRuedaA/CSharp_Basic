@@ -35,12 +35,6 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             vec = new Vector2(-1, -1);
         }
 
-
-
-        /*
-        internal string name;
-        internal string token;
-        internal Vector2 vec;*/
     }
 
     internal class Program
@@ -154,8 +148,6 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
                 // Crea una nueva instancia de Player y asigna la propiedad name
                 playerName = readString($"Insert player {i} name: ");
                 CreatePlayer(ref players[i], playerName);
-
-
             }
         }
 
@@ -163,7 +155,7 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
         {
             player = new Player(name);
             player.token = player.name[0].ToString();
-            player.vec = new Vector2(0, 0);
+            player.vec = new Vector2(-1, -1);
         }
 
         static string GetCellType(Vector2 pos)
@@ -207,8 +199,6 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
 
         private static void PlayRound(Player[] players, ref bool end)
         {
-
-
             for (int i = 0; i < players.Length; i++)
             {
                 PlayerTurn(ref players, ref players[i]);
@@ -217,15 +207,15 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
                     end = true;
                     break;
                 }
-
             }
-
             string aux = readString("Enter any character for continue: ");
         }
 
 
         static void PrintTable()
         {
+
+
             for (int j = TABLE_HIGH - 1; j >= 0; j--)
             {
                 for (int i = 0; i < TABLE_LENGTH; i++)
@@ -236,13 +226,24 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             }
         }
 
+        static void UpdateTable(Player[] players)
+        {
+            foreach (var player in players)
+            {
+                if (player.vec == new Vector2(-1, -1)) continue;
+                Console.WriteLine($"{player.vec} {player.name}");
+                RefreshGUI(player);
+            }
+        }
+
 
 
         static void PlayerTurn(ref Player[] players, ref Player actualPlayer)
         {
-            int diceResult = RollDices(actualPlayer);
+            int diceResult = 2;
+            //RollDices(actualPlayer);
             Move(ref players, ref actualPlayer, diceResult);
-            PrintTable();
+
         }
 
 
@@ -263,9 +264,8 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             //si no está inicializado iniciamos el juego en 0,0
             if (actualPlayer.vec == new Vector2(-1, -1))
             {
-                actualPlayer.vec = new Vector2(0, 0);
+                MoveTo(ref actualPlayer, new Vector2(0, 0));
             }
-            else DeleteOldGui(actualPlayer);
 
             Console.WriteLine($"Player {actualPlayer.name} position actual is {actualPlayer.vec}");
             Console.WriteLine($"{actualPlayer.vec} is a cell of type {_board[(int)actualPlayer.vec.X, (int)actualPlayer.vec.Y]}");
@@ -297,48 +297,55 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             else if (newPos.X < 0) newPos.X = 0;
             else if (newPos.Y >= TABLE_HIGH) newPos.Y = TABLE_HIGH - 1;
             else if (newPos.X >= TABLE_LENGTH) newPos.X = TABLE_LENGTH - 1;
-            actualPlayer.vec = newPos;
+
+            //MoveTo(ref actualPlayer, newPos);
+
             CheckIfCellisEmpty(ref players, ref actualPlayer, ref newPos);
 
-            RefreshGUI(actualPlayer);
+            //RefreshGUI(actualPlayer);
+            MoveTo(ref actualPlayer, newPos);
+            Console.WriteLine($"New pos of {actualPlayer.name} is {actualPlayer.vec}");
+            if (actualPlayer.vec == cheesePosition) CheeseWiski(ref players, actualPlayer);
+            ShowTable(players);
 
-            Console.WriteLine("New pos is " + actualPlayer.vec);
-            Player playerToMove = new Player();
-            playerToMove = GetPlayerAtCell(players, newPos);
-            if (actualPlayer.vec == cheesePosition) CheeseWiski(ref players, actualPlayer, ref playerToMove);
-
-            //DetectIfCheese(actualPlayer.vec, ref players, actualPlayer);
         }
 
-        static void MoveTO()
-        {
 
+        static void ShowTable(Player[] players)
+        {
+            //UpdateTable(players);
+            PrintTable();
+        }
+
+        static void MoveTo(ref Player player, Vector2 newPosition)
+        {
+            if (player.vec != new Vector2(-1, -1)) DeleteOldGui(player.vec);
+            player.vec = newPosition;
+            RefreshGUI(player);
         }
 
         static void CheckIfCellisEmpty(ref Player[] players, ref Player actualPlayer, ref Vector2 cellPos)
         {
             Player toPush = new Player("aux");
-            if (!IfisEmpty(ref players, ref actualPlayer, ref cellPos, ref toPush)) PushToken(ref players, ref toPush);
+            if (!IfisEmpty(ref players, ref actualPlayer, ref cellPos, ref toPush))
+            {
+                PushToken(ref players, ref toPush);
+            }
         }
-
-
 
 
         static bool IfisEmpty(ref Player[] players, ref Player actualPlayer, ref Vector2 cellPos, ref Player toPush)
         {
-
             for (int i = 0; i < players.Length; i++)
             {
                 if (players[i].token == actualPlayer.token)
                 {
-
                     continue;
                 }
 
                 else if (players[i].vec == cellPos)
                 {
-
-
+                    Console.WriteLine($"Cell {cellPos} is not empty by {players[i].name} who is at {players[i].vec}");
                     Console.WriteLine($"Token of {players[i].name} moved");
                     toPush = players[i];
                     return false;
@@ -349,9 +356,7 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
 
         static void PushToken(ref Player[] players, ref Player actualPlayer)
         {
-
-            Console.WriteLine(actualPlayer.name);
-            Console.WriteLine($"Position pre push is {actualPlayer.vec}");
+            Console.WriteLine($"Position pre push of {actualPlayer.name} is {actualPlayer.vec}");
 
             Vector2 oldPos = actualPlayer.vec;
             Vector2 newPos;
@@ -366,35 +371,33 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
 
                     newPos = new Vector2(actualPlayer.vec.X + 1, actualPlayer.vec.Y);
 
-                    Console.WriteLine("token pushed DOWN");
+                    Console.WriteLine($"token of {actualPlayer.name} pushed RIGHT");
 
                 }
                 else
                 {
                     newPos = new Vector2(actualPlayer.vec.X - 1, actualPlayer.vec.Y);
 
-                    Console.WriteLine("token pushed DOWN");
+                    Console.WriteLine($"token of {actualPlayer.name} pushed LEFT");
                 }
-
-
             }
             else
             {
 
                 newPos = new Vector2(actualPlayer.vec.X, actualPlayer.vec.Y + 1);
-                Console.WriteLine($"New position is {newPos}");
-                Console.WriteLine("token pushed UP");
+
+                Console.WriteLine($"token of {actualPlayer.name} pushed  UP");
             }
 
-            actualPlayer.vec = newPos;
-
+            //RefreshGUI(actualPlayer);
             CheckIfCellisEmpty(ref players, ref actualPlayer, ref newPos);
 
-            Player playerToMove = new Player();
-            playerToMove = GetPlayerAtCell(players, newPos);
-            if (actualPlayer.vec == cheesePosition) CheeseWiski(ref players, actualPlayer, ref playerToMove);
-            RefreshGUI(actualPlayer);
-            Console.WriteLine($"Position post push is {actualPlayer.vec}");
+            Console.WriteLine($"Position Post push is {newPos}");
+            MoveTo(ref actualPlayer, newPos);
+
+            Console.WriteLine($"Position post push of {actualPlayer.name} is {actualPlayer.vec}");
+            //if (newPos == cheesePosition) CheeseWiski(ref players, actualPlayer);
+            //MoveTo(ref actualPlayer, newPos);
         }
 
 
@@ -412,30 +415,6 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             return toReturn;
         }
 
-        /*static void DetectIfCheese(Vector2 pos, ref Player[] players, Player actualPlayer)
-        {
-
-            Player playerToMove = new Player("null");
-            if (pos == cheesePosition)
-            {
-                //MOSTRAR LAS FICHAS A EMPUJAR
-                Console.WriteLine("CHISI WISKI");
-                for (int i = 0; i < players.Length; i++)
-                {
-                    if (players[i].name == actualPlayer.name) continue;
-                    Console.WriteLine($"Enter {players[i].token} for {players[i].name}");
-                }
-                char aux;
-                bool exit = false;
-                do
-                {
-                    aux = readChar("SELECT A PLAYER TO CHEESE WISKI");
-                    exit = SelectPlayer(aux, players, actualPlayer, ref playerToMove);
-                } while (!exit);
-                //tiene que ser el jugador a mover no el actual
-
-            };
-        }*/
 
         static bool SelectPlayer(char c, Player[] players, Player player, ref Player playerToMove)
         {
@@ -454,32 +433,67 @@ namespace HyperSpaceCheeseGame // Note: actual namespace depends on the project 
             return false;
         }
 
-        static void CheeseWiski(ref Player[] players, Player actualPlayer, ref Player playerToMove)
+        static void CheeseWiski(ref Player[] players, Player actualPlayer)
         {
-
-            DeleteOldGui(actualPlayer);
+            cheesePosition = new Vector2(-2, -2);
             Console.WriteLine("CHEESE WISKI");
-            Vector2 vecAux;
+
+
+            Player playerToMove = new Player();
+            SearchPlayer(players, ref playerToMove);
+
+            Vector2 newPos;
             do
             {
-                int column = readInt("enter column");
-                vecAux = new Vector2(column, 0);
-                playerToMove.vec = vecAux;
-                //static bool IfisEmpty(ref Player[] players, ref Player player, ref Vector2 cellPos, ref Player toPush)
-            } while (!IfisEmpty(ref players, ref actualPlayer, ref vecAux, ref playerToMove));
+                int column = readInt("enter column ");
+                newPos = new Vector2(column, 0);
 
-            RefreshGUI(actualPlayer);
+                //static bool IfisEmpty(ref Player[] players, ref Player player, ref Vector2 cellPos, ref Player toPush)
+            } while (!IfisEmpty(ref players, ref actualPlayer, ref newPos, ref playerToMove));
+            Console.WriteLine($"CHEESE WHISKIED {playerToMove.name} to {newPos}");
+            MoveTo(ref playerToMove, newPos);
+            PrintTable();
+            //RefreshGUI(actualPlayer);
 
         }
+
+        private static void SearchPlayer(Player[] players, ref Player playerToMove)
+        {
+            bool exit = false;
+            string name;
+            do
+            {
+                name = readString("Introduce name to cheese whiski :");
+                exit = IsPlayer(players, ref playerToMove, name);
+            } while (!exit);
+        }
+
+
+        static bool IsPlayer(Player[] players, ref Player playerToMove, string name)
+        {
+            for (int i = 0; i < players.Length; i++)
+            {
+                if (players[i].name == name)
+                {
+                    playerToMove = players[i];
+
+                    return true;
+                }
+            }
+            Console.WriteLine("Name no valid");
+            return false;
+        }
+
 
         static void RefreshGUI(Player actualPlayer)
         {
             boardTable[(int)actualPlayer.vec.X, (int)actualPlayer.vec.Y] = actualPlayer.token.ToString();
         }
 
-        static void DeleteOldGui(Player actualPlayer)
+        static void DeleteOldGui(Vector2 oldPos)
         {
-            boardTable[(int)actualPlayer.vec.X, (int)actualPlayer.vec.Y] = GetCellType(actualPlayer.vec);
+
+            boardTable[(int)oldPos.X, (int)oldPos.Y] = GetCellType(oldPos);
         }
 
         static void DecideIfNewGame(out char c)
