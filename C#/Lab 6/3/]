@@ -1,0 +1,19 @@
+Descripción:
+  Comando de .NET para modificar el archivo de solución
+
+Uso:
+  dotnet sln <SLN_FILE> [comando] [opciones]
+
+Argumentos:
+  <SLN_FILE>  El archivo de solución sobre el que se va a operar. Si no se especifica, el comando buscará uno en el directorio actual. [por defecto: C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 6\3\]
+
+Opciones:
+  -?, -h, --help  Muestra ayuda de la línea de comandos.
+
+
+Comandos:
+  add <PROJECT_PATH>     Agrega uno o varios proyectos a un archivo de solución.
+  list                   Enumera todos los proyectos de la solución.
+  remove <PROJECT_PATH>  Quita uno o varios proyectos de un archivo de solución.
+
+
