@@ -82,7 +82,7 @@
 
 
 
-    class Program
+    static class Program
     {
         static int min = 0;
         static int max = 99999999;
@@ -110,7 +110,7 @@
                     if (now.Day > diff._day) return false;
                     else if (now.Day == diff._day)
                     {
-                        if (now.Hour > diff._hour) return false;    
+                        if (now.Hour > diff._hour) return false;
                         else return true;
                     }
                     else return true;

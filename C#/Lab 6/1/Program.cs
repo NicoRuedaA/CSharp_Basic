@@ -22,19 +22,6 @@
         }
     }
 
-    public class Date
-    {
-        int hours;
-        int minutes;
-        int seconds;
-
-
-        public Date(int h, int m, int s)
-        {
-            hours = h; minutes = m; seconds = s;
-        }
-    }
-
     class Program
     {
         static int min = 0;

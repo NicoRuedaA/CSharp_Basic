@@ -1,0 +1,42 @@
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\bin\Debug\net8.0-windows\Lab 7.exe
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\bin\Debug\net8.0-windows\Lab 7.deps.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\bin\Debug\net8.0-windows\Lab 7.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\bin\Debug\net8.0-windows\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\bin\Debug\net8.0-windows\Lab 7.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7_MarkupCompile.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7_MarkupCompile.lref
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.g.resources
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.sourcelink.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\refint\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\Lab 7.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\obj\Debug\net8.0-windows\ref\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\bin\Debug\net8.0-windows\Lab 7.exe
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\bin\Debug\net8.0-windows\Lab 7.deps.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\bin\Debug\net8.0-windows\Lab 7.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\bin\Debug\net8.0-windows\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\bin\Debug\net8.0-windows\Lab 7.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7_MarkupCompile.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7_MarkupCompile.lref
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.g.resources
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.sourcelink.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\refint\Lab 7.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\Lab 7.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 7\2\obj\Debug\net8.0-windows\ref\Lab 7.dll
