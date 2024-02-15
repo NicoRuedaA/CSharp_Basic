@@ -1,0 +1,15 @@
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\bin\Debug\net8.0\Lab 8.exe
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\bin\Debug\net8.0\Lab 8.deps.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\bin\Debug\net8.0\Lab 8.runtimeconfig.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\bin\Debug\net8.0\Lab 8.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\bin\Debug\net8.0\Lab 8.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.AssemblyInfo.cs
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.sourcelink.json
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\refint\Lab 8.dll
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.pdb
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\Lab 8.genruntimeconfig.cache
+C:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 8\obj\Debug\net8.0\ref\Lab 8.dll
