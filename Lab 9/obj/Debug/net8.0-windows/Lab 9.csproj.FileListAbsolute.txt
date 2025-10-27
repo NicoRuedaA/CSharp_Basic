@@ -1,0 +1,8 @@
+c:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 9\obj\Debug\net8.0-windows\MainWindow.g.cs
+c:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 9\obj\Debug\net8.0-windows\App.g.cs
+c:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 9\obj\Debug\net8.0-windows\Lab 9_MarkupCompile.cache
+c:\Users\Nico\Desktop\cositas\Code\Ejercicios\C#\Lab 9\obj\Debug\net8.0-windows\Lab 9_MarkupCompile.lref
+c:\Users\Nico\Desktop\cositas\Code\C#\Ejercicios\Lab 9\obj\Debug\net8.0-windows\MainWindow.g.cs
+c:\Users\Nico\Desktop\cositas\Code\C#\Ejercicios\Lab 9\obj\Debug\net8.0-windows\App.g.cs
+c:\Users\Nico\Desktop\cositas\Code\C#\Ejercicios\Lab 9\obj\Debug\net8.0-windows\Lab 9_MarkupCompile.cache
+c:\Users\Nico\Desktop\cositas\Code\C#\Ejercicios\Lab 9\obj\Debug\net8.0-windows\Lab 9_MarkupCompile.lref
